@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kpantic/react-dropzone-s3-uploader-multipart"
+    "url": "https://github.com/solspecdev/react-dropzone-s3-uploader-multipart"
   },
   "scripts": {
     "prepublish": "rm -rf ./lib && babel ./src --ignore '/node_modules/' --out-dir ./lib",
@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "react-dropzone": "^3.7.3",
-    "react-s3-uploader-multipart": "4.8.0",
+    "react-s3-uploader-multipart": "git+ssh://git@github.com/solspecdev/react-s3-uploader-multipart.git",
     "react-uploader": "git+ssh://git@github.com/solspecdev/react-s3-uploader.git"
   },
   "peerDependencies": {
