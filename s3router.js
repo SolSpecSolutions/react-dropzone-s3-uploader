@@ -1,1 +1,1 @@
-module.exports = require('react-s3-uploader/s3router')
+module.exports = require('react-s3-uploader-multipart/s3router')
