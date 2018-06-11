@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "react-dropzone": "^3.7.3",
-    "react-s3-uploader-multipart": "git+ssh://git@github.com/SolSpecSolutions/react-s3-uploader-multipart.git",
+    "react-s3-uploader": "git+ssh://git@github.com/solspecdev/react-s3-uploader.git",
   },
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0"
